@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.centered h2{
+    color:grey;
+}
+.centered button{
+    background-color: teal;
+    color:white;
+    border-radius: 5px;
+    border-color: teal;
+
+}
+.centered button p{
+    font-size: smaller;
+
+}
+.left {
+  left: 0;
+  background-color: rgb(226, 216, 216);
+}
+
+.right {
+  right: 0;
+  background-color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.centeredd {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centeredd h4 {
+    color:black;
+    text-align: left;
+}
+.new{
+    color:grey;
+}
+
+.form{
+    margin-top: 270px;
+    margin-left: 90px;
+}
+
+    
+    .input-container {
+      
+      display: -ms-flexbox; /* IE10 */
+      background-color: gainsboro;
+      display: flex;
+      width: 80%;
+      margin-bottom: 15px;
+    }
+    
+    .icon {
+      padding: 10px;
+      color:black;
+      min-width: 50px;
+      text-align: center;
+    }
+    
+    .input-field {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+      border: none;
+      background-color: gainsboro;
+    }
+    
+   
+    
+    /* Set a style for the submit button */
+    .btn {
+      background-color: teal;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      cursor: pointer;
+      width: 80%;
+      opacity: 0.9;
+    }
+    
+    .btn:hover {
+      opacity: 1;
+    }
+    
+</style>
+</head>
+<body>
+
+<div class="split left">
+  <div class="centered">
+    <img src="img.png" alt="Avatar woman">
+    <h2 >Maximizing your performance as a high performance leader  </h2>
+    <button>
+       <b> <p>SPEAK TO OUR TEAM</p> </b>
+    </button>
+  </div>
+</div>
+
+<div class="split right">
+    <div class="centeredd">
+        <img src="logo.png" alt="Avatar woman" >
+     <h4><b>Welcome back!</b>
+        <br>
+    <div class="new"> Login to your 360 portal</h4>
+    </div>
+
+
+        <form action ="https://xd.adobe.com/view/a17664b6-f09b-46b8-9b93-143e68558c74-f425/screen/39dde8ab-d10d-4ca8-818b-fe159f32d7c2/" style="max-width:500px;margin:auto">
+    
+     
+<div class="form">
+      <div class="input-container">
+        <i class="fa fa-envelope icon"></i>
+        <input class="input-field" type="text"   rows="2" placeholder="Email   " name="email">
+      </div>
+      
+      <div class="input-container">
+        <i class="fa fa-lock icon"></i>
+        <input class="input-field" type="password" placeholder="Password" name="psw">
+      </div>
+      <h6  style="color:black;">
+     <input id="rememberChkBox" type="checkbox" >Remember me</input>
+     
+     &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+     <a href ="">Forget your password ?</a></h6>
+    
+      <button type="submit" class="btn"><b>Login</b></button>
+     
+    </form>
+    
+</div>
+</div>
+    
+</div>
+
+</body>
+</html> 
